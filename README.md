@@ -1,5 +1,5 @@
 # opencv
 配电房入侵人脸抓拍
-test
-test
-test
+python3
+opencv
+face_recognition

@@ -3,3 +3,7 @@
 python3
 opencv
 face_recognition
+
+
+技术交流群：334312796
+验证密码：深圳友先达

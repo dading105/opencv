@@ -53,7 +53,6 @@ plt.show()
 print('Number of cars in the image is '+ str(label.count('distribution box')))
 
 
-​
 states = ('Rainy', 'Sunny')
 observations = ('walk', 'shop', 'clean')
 start_probability = {'Rainy': 0.6, 'Sunny': 0.4}
@@ -65,7 +64,6 @@ emission_probability = {
     'Rainy' : {'walk': 0.1, 'shop': 0.4, 'clean': 0.5},
     'Sunny' : {'walk': 0.6, 'shop': 0.3, 'clean': 0.1},
 }
-
 上图是一个简单的HMM。我们的目标是要从表状态链（生活）中找到最可能的隐状态链（天气）。 
 传统的维特比算法，等价于将HMM展开为概率图，最好的隐状态链就是概率图中的最优路径对应的隐状态链，所以维特比算法思路等价于dijistra最优路径算法。这里要说明几个要点： 
 - 概率低不代表不发生 
